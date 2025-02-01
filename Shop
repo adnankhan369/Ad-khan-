@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl"> <!-- رائٹ ٹو لیفٹ (اردو/عربی کے لیے) -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>میری پہلی ویب سائٹ</title>
+    <style>
+        /* CSS اسٹائل */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", sans-serif;
+        }
+
+        body {
+            background: #f0f8ff;
+        }
+
+        .header {
+            background: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .content {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        button {
+            padding: 10px 20px;
+            background: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- ہیڈر -->
+    <header class="header">
+        <h1>خوش آمدید! 🏡</h1>
+        <p>یہ میری پہلی ویب سائٹ ہے</p>
+    </header>
+
+    <!-- مرکزی مواد -->
+    <div class="content">
+        <div class="card">
+            <h2>میرے بارے میں</h2>
+            <p>میں ایک ویب ڈویلپر ہوں اور مجھے کوڈنگ کا شوق ہے۔</p>
+            <button onclick="alert('آپ نے بٹن دبایا! 🎉')">کلک کریں</button>
+        </div>
+
+        <div class="card">
+            <h2>مہارتیں</h2>
+            <ul>
+                <li>HTML/CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- فوٹر -->
+    <footer class="footer">
+        <p>© 2024 میری ویب سائٹ۔ تمام حقوق محفوظ ہیں۔</p>
+    </footer>
+</body>
+</html>
